@@ -23,7 +23,7 @@ struct HowToPlayScreen: View {
                             .frame(width: 300)
                         
                         Text(currentHint == 0 ? "Counting" : currentHint == 1 ? "Big Friends" : "Small Friends")
-                            .foregroundColor(.white)
+                            .foregroundColor(.yellow)
                             .font(.title)
                             .bold()
                         

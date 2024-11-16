@@ -104,7 +104,7 @@ struct RelaxModeScreen: View {
                                         Image("correct")
                                             .resizable()
                                             .scaledToFit()
-                                        Text("Continue...")
+                                        Text("Tap to continue...")
                                             .foregroundStyle(.white)
                                     }
                                 }
